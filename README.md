@@ -58,6 +58,5 @@ This project was deployed using GitHub Pages to make the website publicly access
 
 ## Author
 ST10539501 Ntokozo Zondo
-ST10539501 Ntokozo Zondo
 Rosebank International
 Web Development PoE
