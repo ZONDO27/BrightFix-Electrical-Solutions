@@ -1,7 +1,8 @@
 # BrightFix-Electrical-Solutions
 BrightFix Electrical Solutions website built with HTML,CSS,and JavaScript for a fictional electrical service business
 
-# BrightFix Electrical Solutions
+# BrightFix Electrical Solutions Website Link
+https://brightfix-electricalsolutions-6cad35.netlify.app/contact
 
 ## Student Information
 - Name: ST10539501 Ntokozo Zondo
