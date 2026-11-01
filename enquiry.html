@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry | BrightFix Electrical Solutions</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container nav-wrap">
+      <h1>BrightFix Electrical Solutions</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-content">
+    <form id="enquiryForm" class="contact-form">
+      <h2>Service Enquiry</h2>
+      <label>Name:
+        <input type="text" id="name" required>
+      </label>
+      <label>Email:
+        <input type="email" id="email" required>
+      </label>
+      <label>Service Type:
+        <select id="service">
+          <option>Repairs</option>
+          <option>Installation</option>
+          <option>Emergency Callout</option>
+        </select>
+      </label>
+      <label>Message:
+        <textarea id="message" required></textarea>
+      </label>
+      <button type="submit">Submit Enquiry</button>
+      <p id="response"></p>
+    </form>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 BrightFix Electrical Solutions | All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
