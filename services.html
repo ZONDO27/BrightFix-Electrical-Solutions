@@ -4,18 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services | BrightFix Electrical Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/script.js" defer></script>
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <div class="container nav-wrap">
-      <h1>BrightFix Electrical Solutions</h1>
-      <nav>
+      <div class="brand-block">
+        <span class="brand-mark">BF</span>
+        <h1>BrightFix Electrical Solutions</h1>
+      </div>
+      <nav class="main-nav" aria-label="Main navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">Services</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
           <li><a href="enquiry.html">Enquiry</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -24,8 +30,9 @@
   </header>
 
   <main class="container page-content">
-    <section class="section">
-      <h2>Our Services</h2>
+    <section class="page-card">
+      <p class="section-tag">Our services</p>
+      <h2>Reliable solutions for homes, businesses, and property owners.</h2>
       <ul class="services-list">
         <li>Home Electrical Repairs</li>
         <li>Lighting Installations</li>
@@ -37,8 +44,8 @@
     </section>
   </main>
 
-  <footer>
-    <div class="container">
+  <footer class="site-footer">
+    <div class="container footer-inner">
       <p>&copy; 2026 BrightFix Electrical Solutions | All Rights Reserved</p>
     </div>
   </footer>

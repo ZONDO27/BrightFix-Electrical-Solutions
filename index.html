@@ -6,16 +6,22 @@
   <meta name="keywords" content="electrical repairs, installations, Johannesburg electricians, BrightFix">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BrightFix Electrical Solutions | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/script.js" defer></script>
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <div class="container nav-wrap">
-      <h1>BrightFix Electrical Solutions</h1>
-      <nav>
+      <div class="brand-block">
+        <span class="brand-mark">BF</span>
+        <h1>BrightFix Electrical Solutions</h1>
+      </div>
+      <nav class="main-nav" aria-label="Main navigation">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="enquiry.html">Enquiry</a></li>
@@ -27,59 +33,90 @@
 
   <main>
     <section class="hero">
-      <div class="container hero-content">
-        <h2>Powering Homes &amp; Businesses Safely</h2>
-        <p>Fast, friendly, and affordable electrical services across Johannesburg.</p>
-        <a href="enquiry.html" class="cta">Request a Quote</a>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Trusted local electricians</p>
+          <h2>Powering Homes &amp; Businesses Safely</h2>
+          <p>Fast, friendly, and affordable electrical services across Johannesburg.</p>
+          <div class="hero-actions">
+            <a href="enquiry.html" class="btn btn-primary">Request a Quote</a>
+            <a href="services.html" class="btn btn-secondary">Our Services</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>24/7</strong><span>Emergency callouts</span></li>
+            <li><strong>2015</strong><span>Years of service</span></li>
+            <li><strong>500+</strong><span>Projects completed</span></li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section intro-section">
       <div class="container two-column">
-        <div>
-          <h2>About BrightFix</h2>
-          <p>BrightFix Electrical Solutions is a family-run business providing dependable electrical services for homes, offices, and commercial spaces.</p>
-          <p>We believe in safe, efficient work and honest service that keeps your property powered and protected.</p>
+        <div class="content-block">
+          <p class="section-tag">Why clients choose us</p>
+          <h2>Bright, safe, and dependable electrical service.</h2>
+          <p>BrightFix Electrical Solutions is a family-run business delivering dependable electrical services for homes, businesses, and property managers across Johannesburg.</p>
+          <p>We combine honest advice, quality workmanship, and responsive support so your safety and comfort always come first.</p>
         </div>
-        <div>
-          <h2>Why Choose Us</h2>
-          <ul class="check-list">
-            <li>Licensed and experienced electricians</li>
-            <li>Transparent quotations</li>
-            <li>Fast emergency response</li>
-            <li>Residential and commercial expertise</li>
-          </ul>
+        <div class="image-panel">
+          <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=80" alt="Electrician working on a panel" />
         </div>
       </div>
     </section>
 
     <section class="section alt-bg">
       <div class="container">
-        <h2>Our Services</h2>
+        <div class="section-heading">
+          <p class="section-tag">Our solutions</p>
+          <h2>Electrical services for every need</h2>
+        </div>
         <div class="card-grid">
           <article class="card">
+            <div class="icon">⚡</div>
             <h3>Home Repairs</h3>
-            <p>Fault finding, rewiring, and fixing electrical issues in your home.</p>
+            <p>Fault-finding, rewiring, and fast issue resolution for residential properties.</p>
           </article>
           <article class="card">
+            <div class="icon">💡</div>
             <h3>Lighting Installations</h3>
-            <p>Indoor and outdoor lighting solutions for comfort, safety, and style.</p>
+            <p>Interior and exterior lighting upgrades that improve visibility and energy efficiency.</p>
           </article>
           <article class="card">
+            <div class="icon">🔧</div>
             <h3>Wiring &amp; Rewiring</h3>
-            <p>Safe and compliant electrical wiring for new or outdated properties.</p>
+            <p>Safe and compliant electrical installations for new builds and older homes.</p>
           </article>
           <article class="card">
+            <div class="icon">🛠️</div>
             <h3>Emergency Callouts</h3>
-            <p>24/7 support to restore power and minimize downtime.</p>
+            <p>Available when the power fails, the circuit trips, or you need urgent help.</p>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section trust-section">
+      <div class="container trust-grid">
+        <div class="trust-image">
+          <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=900&q=80" alt="Customer trust and service relationship" />
+        </div>
+        <div class="content-block">
+          <p class="section-tag">Our promise</p>
+          <h2>Safe work. Honest advice. Reliable results.</h2>
+          <ul class="check-list">
+            <li>Experienced local technicians</li>
+            <li>Transparent pricing before work begins</li>
+            <li>Energy-efficient and compliant solutions</li>
+            <li>Friendly, respectful service every time</li>
+          </ul>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container">
+  <footer class="site-footer">
+    <div class="container footer-inner">
       <p>&copy; 2026 BrightFix Electrical Solutions | All Rights Reserved</p>
     </div>
   </footer>
