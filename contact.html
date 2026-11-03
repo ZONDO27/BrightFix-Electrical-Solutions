@@ -31,19 +31,20 @@
 
   <main class="container page-content">
     <form id="contactForm" class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="hidden" name="_subject" value="New BrightFix contact message">
       <p class="section-tag">Talk to us</p>
       <h2>Contact Us</h2>
       <label>Name
-        <input type="text" id="contactName" name="name" required>
+        <input type="text" id="contactName" name="name" autocomplete="name" required>
       </label>
       <label>Email
-        <input type="email" id="contactEmail" name="email" required>
+        <input type="email" id="contactEmail" name="email" autocomplete="email" required>
       </label>
       <label>Message
         <textarea id="contactMessage" name="message" required></textarea>
       </label>
       <button type="submit">Send Message</button>
-      <p id="contactResponse" aria-live="polite"></p>
+      <p id="contactResponse" aria-live="polite" role="status"></p>
     </form>
   </main>
 
